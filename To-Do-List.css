@@ -1,0 +1,66 @@
+.body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffff;
+}
+.Header {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.InputContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#typeInput {
+  color: black;
+  width: 10rem;
+  height: 2rem;
+}
+#NewTask {
+  cursor: pointer;
+  padding: 1rem;
+  width: 10rem;
+  height: 2rem;
+  border-left: 1px solid white;
+  transition: background 0.2s ease,transform 0.2s ease;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#NewTask:hover {
+  background: #f5deb3;
+  transform: scale(1.1);
+}
+.todolistheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#todolist{
+    min-width: 32rem;
+    width: 50vw;
+    list-style: none;
+}
+li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
